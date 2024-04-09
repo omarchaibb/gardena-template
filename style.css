@@ -1,0 +1,150 @@
+:root {
+    --margin-left-and-right: 0px 100px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #133E18;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: var(--margin-left-and-right);
+    align-items: center;
+    height: 100px;
+}
+
+main{
+}
+
+/* ========= the top left ========= */
+.top_left{
+    display: flex;
+    align-items: center;
+}
+
+.top_left .logo{
+
+    margin-left: 20px;
+}
+.top_left img{
+    width: 38px;
+    height: 60px;
+}
+.top_left h3{
+    margin-left: 10px;
+    color: white;
+}
+/* ================ top left end ============== */
+
+/* =================== top right start ============= */
+.right_container{
+    display: flex;
+    gap: 43px;
+    
+}
+.menu_content{
+    width: 46px;
+    height: 46px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.right_container .menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.right_container .menu_content span{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(calc(14px * var(--x)) , calc(14px * var(--y)));
+
+}
+/* ===== search baar style === */
+.search{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    width: 200px;    
+}
+.menu p {
+    color: white;
+    font-size: 19px;
+    font-weight: 500;  
+}
+
+.right_container input[type="text"]{
+    border-radius: 30px;
+    margin-right: 20px;
+    background-color: white;
+    outline: none;
+    border-style: none;
+    color: black;
+    font-size: 20px;
+    height: calc(100% - 10px);
+    width: 0;
+    transition: 1s ease;
+
+}
+
+.search:hover input{
+    width: 100%;
+
+    
+}
+.search:hover a{
+    margin-right: 19px;
+}
+
+
+.search a{
+    margin-left: 19px;
+    color: white;
+    font-weight: 700;
+    transition: 1s;
+}
+/* =================== top right end ============= */
+
+
+/* ======== background  start ======= */
+
+
+
+main .background img{
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%);
+    height: 700px;
+}
+
+
+.blur img{
+    position: absolute;
+    width: 400px;
+    height: 399px;
+    left: -88px;
+    top: -127px;
+    z-index: -1;
+}
+
+/* ======== background  end ======= */
