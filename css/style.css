@@ -1,0 +1,38 @@
+@import url("sections/nav.css");
+@import url("sections/header.css");
+
+
+:root {
+    --margin-left-and-right: 0px 100px;
+    --border-reduis:40px;
+    --main-color:#133E18;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+}
+
+body{
+
+    background-color: var(--main-color);
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+.btn{
+    background-color: white;
+    color: var(--main-color);
+    padding: 13px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
