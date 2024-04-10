@@ -1,7 +1,6 @@
 @import url("sections/nav.css");
 @import url("sections/header.css");
-
-
+@import url("sections/products.css");
 :root {
     --margin-left-and-right: 0px 100px;
     --border-reduis:40px;
@@ -36,3 +35,4 @@ a{
     font-size: 20px;
 
 }
+
