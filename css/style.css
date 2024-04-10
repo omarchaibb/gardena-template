@@ -1,6 +1,7 @@
 @import url("sections/nav.css");
 @import url("sections/header.css");
 @import url("sections/products.css");
+@import url("sections/reviews.css");
 :root {
     --margin-left-and-right: 0px 100px;
     --border-reduis:40px;

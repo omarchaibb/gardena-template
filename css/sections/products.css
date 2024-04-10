@@ -11,8 +11,11 @@
 
 .cards_product{
     display: flex;
-    gap: 60px;
+    justify-content: space-between;
+    width: 100%;
     position: relative;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 .product_title{
@@ -49,8 +52,6 @@
     border: 1px solid white;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 40px;
-    margin-top: 200px;
-    margin-bottom: 100px;
 }
 
 .card .product_image{
